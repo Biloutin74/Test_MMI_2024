@@ -47,11 +47,13 @@ function sayHello($name) {
 </head>
 <body>
     <header>
+        <?php include ("menu.php") ?>
         <h1><?php echo $pageTitle; ?></h1>
     </header>
     <main>
         <p><?php echo sayHello("utilisateur"); ?></p>
         <p>Bienvenue dans votre première page PHP de base.</p>
+        <p> bonsoir Paris rOUCOU </p>
     </main>
 </body>
 </html>
